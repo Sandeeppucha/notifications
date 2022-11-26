@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-container {
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 30px;
+  width: 40px;
+  padding-left: 10px;
+}
+.items-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.one {
+  background-color: #0b69ff;
+}
+
+.two {
+  background-color: #2dca73;
+}
+
+.three {
+  background-color: #ffb800;
+}
+
+.four {
+  background-color: #ff0b37;
+}
+
+.message-style {
+  color: white;
+  font-family: "Roboto";
+  padding-left: 30px;
+}
+.heading {
+  font-family: "Roboto";
+}
